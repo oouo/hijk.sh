@@ -3,6 +3,7 @@
 &nbsp;
 #### `Original`: 原版未改动
 #### `Fixed`: 个人修复了在使用`zh_cn`等语言时无法正常检测root的问题
+####          已更换域名解析网站(according to [Rick-Cooper's commits](https://github.com/Rick-Cooper/hijk.sh/commits))
 &nbsp;
 ```
 centos_install_v2ray2.sh  #v2ray带伪装一键脚本
