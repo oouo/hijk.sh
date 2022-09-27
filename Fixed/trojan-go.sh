@@ -202,7 +202,7 @@ getData() {
             CERT_FILE="/etc/trojan-go/${DOMAIN}.pem"
             KEY_FILE="/etc/trojan-go/${DOMAIN}.key"
         else
-            resolve=`curl -sL https://ip.gs`
+            resolve=`curl -4 ip.gs`
             res=`echo -n ${resolve} | grep ${IP}`
             if [[ -z "${res}" ]]; then
                 echo " ${DOMAIN} 解析结果：${resolve}"
